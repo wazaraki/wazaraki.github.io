@@ -1,0 +1,135 @@
+@import url(normalize.css);
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  color: #555;
+}
+
+body {
+  height: 100%;
+  line-height: 1.5;
+}
+
+p {
+  margin-bottom: 1.6rem;
+}
+
+a {
+  color: #61a0ab;
+  text-decoration: none;
+}
+a:hover {
+  color: #82b4bd;
+}
+
+.aside {
+  position: relative;
+  top: 0;
+  width: 100%;
+  color: lightgray;
+  text-align: center;
+}
+.aside a {
+  color: #e3e2e1;
+  text-decoration: none;
+}
+.aside h1 {
+  font-size: 1.9rem;
+  margin: .5rem 0;
+  text-shadow: rgba(0, 0, 0, 0.5) 0 2px;
+}
+
+.header {
+  padding: 1.6rem 0;
+  background: #56627c;
+  height: 13.5em;
+}
+
+.description {
+  font-size: 1.1rem;
+}
+
+.nav {
+  background: #e3e2e1;
+  xbackground: #f9f0cb;
+  color: #56627c;
+}
+
+.avatar {
+  border-radius: 37.5%;
+  height: 48px;
+  width: 48px;
+}
+
+.nav-menu li {
+  display: inline-block;
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 1rem 1.2rem;
+  height: 4rem;
+}
+
+.nav-menu li a {
+  color: #56627c;
+  text-decoration: none;
+}
+.nav-menu li a:hover {
+  color: #414a5e;
+}
+
+.main {
+  padding: 1.6rem 1.6rem 2rem;
+  font-size: 2rem;
+  min-height: 15.8rem;
+  margin: 0 auto;
+}
+.main > p {
+  line-height: 1.6;
+}
+.main h1 {
+  font-size: 3.2rem;
+  margin: .3em 0;
+}
+.main ul {
+  padding-left: 4rem;
+  margin: 1.6rem 0;
+}
+
+@media screen and (min-width: 40.5em) {
+  .main {
+    padding: 1rem 5rem 0;
+    max-width: 66rem;
+    margin: 1.6rem auto 1.6rem;
+  }
+}
+.media {
+  display: block;
+  margin: 0 auto 1.6rem;
+}
+
+.photo {
+  background-image: url("../images/wilman_8bit_192x192.png");
+  background-origin: border-box;
+  width: 192px;
+  height: 192px;
+  border-radius: 96px;
+  margin-bottom: 1.6rem;
+  border: 4px solid #e3e2e1;
+  transition: all 0.5s ease-out;
+}
+.photo:hover {
+  background-image: url("../images/wilman_192x192.jpg");
+}
+
+footer {
+  color: #56627c;
+  text-align: center;
+  line-height: 3.2;
+}

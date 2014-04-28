@@ -67,6 +67,7 @@ a:hover {
   border-radius: 37.5%;
   height: 48px;
   width: 48px;
+  background: url("../images/wilman_192x192.jpg") no-repeat -9999px -9999px;
 }
 
 .nav-menu li {

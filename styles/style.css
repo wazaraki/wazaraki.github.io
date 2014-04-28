@@ -1,5 +1,5 @@
 @import url(normalize.css);
-* {
+*, *:before, *:after {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -14,6 +14,7 @@ html {
 
 body {
   height: 100%;
+  font-family: 'Lato', 'sans-serif';
   line-height: 1.5;
 }
 
@@ -53,12 +54,12 @@ a:hover {
 }
 
 .description {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 .nav {
   background: #e3e2e1;
-  xbackground: #f9f0cb;
+  height: 4rem;
   color: #56627c;
 }
 

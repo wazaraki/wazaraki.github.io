@@ -299,13 +299,25 @@
             // Full list of configuration options available here:
             // https://github.com/hakimel/reveal.js#configuration
             Reveal.initialize({
-                controls: true,
+                controls: false,
                 progress: true,
                 history: true,
+                keyboard: false,
                 center: true,
+                touch: false,
 
                 theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
                 transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+                keyboard: {
+                    27: null,
+                    32: null,
+                    8:  null,
+                    37: null,
+                    38: null,
+                    39: null,
+                    40: null
+                },
 
                 multiplex: {
                     secret: null, // null so the clients do not have control of the master presentation

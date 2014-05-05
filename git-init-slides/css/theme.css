@@ -160,3 +160,6 @@ body {
 
 .reveal section img.expand {
   width: 90%; }
+
+.reveal section img.expand-y {
+  height: 90%; }
